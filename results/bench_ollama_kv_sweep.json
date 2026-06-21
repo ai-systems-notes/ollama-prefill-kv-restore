@@ -1,0 +1,315 @@
+{
+  "model": "llama3.2:3b",
+  "warmup": 1,
+  "repeat": 3,
+  "rows": [
+    {
+      "target": 256,
+      "n_saved": 264,
+      "save_ms": 21.853,
+      "file_bytes": 30626668,
+      "norestore_ms": 30.21066666666667,
+      "restore_ms": 9.123,
+      "speedup": 3.311483795535095,
+      "reuse_tok": 264,
+      "norestore_runs": [
+        {
+          "prompt_n": 273,
+          "cache_n": 1,
+          "prompt_ms": 30.29
+        },
+        {
+          "prompt_n": 273,
+          "cache_n": 1,
+          "prompt_ms": 30.341
+        },
+        {
+          "prompt_n": 273,
+          "cache_n": 1,
+          "prompt_ms": 30.001
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 264,
+          "prompt_ms": 9.735
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 264,
+          "prompt_ms": 8.883
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 264,
+          "prompt_ms": 8.751
+        }
+      ]
+    },
+    {
+      "target": 512,
+      "n_saved": 516,
+      "save_ms": 36.258,
+      "file_bytes": 59532076,
+      "norestore_ms": 53.91566666666667,
+      "restore_ms": 8.937666666666667,
+      "speedup": 6.032409652034461,
+      "reuse_tok": 516,
+      "norestore_runs": [
+        {
+          "prompt_n": 525,
+          "cache_n": 1,
+          "prompt_ms": 54.41
+        },
+        {
+          "prompt_n": 525,
+          "cache_n": 1,
+          "prompt_ms": 53.626
+        },
+        {
+          "prompt_n": 525,
+          "cache_n": 1,
+          "prompt_ms": 53.711
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 516,
+          "prompt_ms": 8.908
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 516,
+          "prompt_ms": 8.975
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 516,
+          "prompt_ms": 8.93
+        }
+      ]
+    },
+    {
+      "target": 1024,
+      "n_saved": 1020,
+      "save_ms": 57.278,
+      "file_bytes": 117342892,
+      "norestore_ms": 108.54033333333334,
+      "restore_ms": 9.121666666666666,
+      "speedup": 11.899177781838116,
+      "reuse_tok": 1020,
+      "norestore_runs": [
+        {
+          "prompt_n": 1029,
+          "cache_n": 1,
+          "prompt_ms": 107.865
+        },
+        {
+          "prompt_n": 1029,
+          "cache_n": 1,
+          "prompt_ms": 109.403
+        },
+        {
+          "prompt_n": 1029,
+          "cache_n": 1,
+          "prompt_ms": 108.353
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 1020,
+          "prompt_ms": 9.129
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 1020,
+          "prompt_ms": 9.073
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 1020,
+          "prompt_ms": 9.163
+        }
+      ]
+    },
+    {
+      "target": 4096,
+      "n_saved": 4107,
+      "save_ms": 189.931,
+      "file_bytes": 471434140,
+      "norestore_ms": 476.668,
+      "restore_ms": 10.388666666666667,
+      "speedup": 45.88346274786626,
+      "reuse_tok": 4107,
+      "norestore_runs": [
+        {
+          "prompt_n": 4116,
+          "cache_n": 1,
+          "prompt_ms": 479.642
+        },
+        {
+          "prompt_n": 4116,
+          "cache_n": 1,
+          "prompt_ms": 475.15
+        },
+        {
+          "prompt_n": 4116,
+          "cache_n": 1,
+          "prompt_ms": 475.212
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 4107,
+          "prompt_ms": 10.887
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 4107,
+          "prompt_ms": 10.144
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 4107,
+          "prompt_ms": 10.135
+        }
+      ]
+    },
+    {
+      "target": 8192,
+      "n_saved": 8223,
+      "save_ms": 390.295,
+      "file_bytes": 943555804,
+      "norestore_ms": 1067.4426666666666,
+      "restore_ms": 11.405333333333333,
+      "speedup": 93.59153612345101,
+      "reuse_tok": 8223,
+      "norestore_runs": [
+        {
+          "prompt_n": 8232,
+          "cache_n": 1,
+          "prompt_ms": 1071.358
+        },
+        {
+          "prompt_n": 8232,
+          "cache_n": 1,
+          "prompt_ms": 1066.016
+        },
+        {
+          "prompt_n": 8232,
+          "cache_n": 1,
+          "prompt_ms": 1064.954
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 8223,
+          "prompt_ms": 11.37
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 8223,
+          "prompt_ms": 11.419
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 8223,
+          "prompt_ms": 11.427
+        }
+      ]
+    },
+    {
+      "target": 16384,
+      "n_saved": 16455,
+      "save_ms": 787.708,
+      "file_bytes": 1887799132,
+      "norestore_ms": 2692.1266666666666,
+      "restore_ms": 13.941333333333333,
+      "speedup": 193.1039594491201,
+      "reuse_tok": 16455,
+      "norestore_runs": [
+        {
+          "prompt_n": 16464,
+          "cache_n": 1,
+          "prompt_ms": 2686.603
+        },
+        {
+          "prompt_n": 16464,
+          "cache_n": 1,
+          "prompt_ms": 2698.578
+        },
+        {
+          "prompt_n": 16464,
+          "cache_n": 1,
+          "prompt_ms": 2691.199
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 16455,
+          "prompt_ms": 13.957
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 16455,
+          "prompt_ms": 13.94
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 16455,
+          "prompt_ms": 13.927
+        }
+      ]
+    },
+    {
+      "target": 32768,
+      "n_saved": 33486,
+      "save_ms": 819.839,
+      "file_bytes": 3841322956,
+      "norestore_ms": 8109.755,
+      "restore_ms": 19.414666666666665,
+      "speedup": 417.7128116200811,
+      "reuse_tok": 33486,
+      "norestore_runs": [
+        {
+          "prompt_n": 33495,
+          "cache_n": 1,
+          "prompt_ms": 8099.484
+        },
+        {
+          "prompt_n": 33495,
+          "cache_n": 1,
+          "prompt_ms": 8111.239
+        },
+        {
+          "prompt_n": 33495,
+          "cache_n": 1,
+          "prompt_ms": 8118.542
+        }
+      ],
+      "restore_runs": [
+        {
+          "prompt_n": 10,
+          "cache_n": 33486,
+          "prompt_ms": 19.782
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 33486,
+          "prompt_ms": 19.333
+        },
+        {
+          "prompt_n": 10,
+          "cache_n": 33486,
+          "prompt_ms": 19.129
+        }
+      ]
+    }
+  ]
+}
